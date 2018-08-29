@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>860</x>
+      <y>230</y>
+      <w>320</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>dominio.parte2.punto5
+--
+
++Categoria
+/+Contenitore/
++Film
++IRicercaStrategy &lt;&lt;interface&gt;&gt;
++Libro
++Persona
++RicercaPerAnnoPubblicazioneStrategy
++RicercaPerArtistaStrategy
++RicercaPerCasaEditriceStrategy
++RicercaPerGenereStrategy
++RicercaPerRegistaStrategy
++RicercaPerTitoloStrategy
+/+Risorsa/
++SottoCategoria
+
+
+
+
+Text
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>180</x>
+      <y>230</y>
+      <w>230</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>interazione.parte2.punto5
+--
+/+ProcessHandler/
++ProcessFruitoreHandler
++ProcessOperatoreHandler
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>500</x>
+      <y>530</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>utility.parte2
+--
++Costanti
++Data
++InputDati
++Menu
++ServizioFile
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

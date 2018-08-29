@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1490</x>
+      <y>740</y>
+      <w>400</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+IRicercaStrategy
+
+--
+
+--
++ricercaRisorsa(r: ArrayList&lt;Risorsa&gt;): ArrayList&lt;Risorsa&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1240</x>
+      <y>940</y>
+      <w>380</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>RicercaPerAnnoPubblicazioneStrategy
+
+--
+-n: int
+--
++ricercaRisorsa(r: ArrayList&lt;Risorsa&gt;): ArrayList&lt;Risorsa&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1240</x>
+      <y>1070</y>
+      <w>380</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>RicercaPerAttoreStrategy
+
+--
+-s: String
+--
++ricercaRisorsa(r: ArrayList&lt;Risorsa&gt;): ArrayList&lt;Risorsa&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1290</x>
+      <y>1200</y>
+      <w>380</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>RicercaPerAutoreStrategy
+
+--
+-s: String
+--
++ricercaRisorsa(r: ArrayList&lt;Risorsa&gt;): ArrayList&lt;Risorsa&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1550</x>
+      <y>1340</y>
+      <w>380</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>RicercaPerCasaEditriceStrategy
+
+--
+-s: String
+--
++ricercaRisorsa(r: ArrayList&lt;Risorsa&gt;): ArrayList&lt;Risorsa&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1780</x>
+      <y>1200</y>
+      <w>380</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>RicercaPerGenereStrategy
+
+--
+-s: String
+--
++ricercaRisorsa(r: ArrayList&lt;Risorsa&gt;): ArrayList&lt;Risorsa&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1830</x>
+      <y>1070</y>
+      <w>380</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>RicercaPerRegistaStrategy
+
+--
+-s: String
+--
++ricercaRisorsa(r: ArrayList&lt;Risorsa&gt;): ArrayList&lt;Risorsa&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1870</x>
+      <y>950</y>
+      <w>380</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>RicercaPerTitoloStrategy
+
+--
+-s: String
+--
++ricercaRisorsa(r: ArrayList&lt;Risorsa&gt;): ArrayList&lt;Risorsa&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1720</x>
+      <y>840</y>
+      <w>30</w>
+      <h>520</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;500.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1610</x>
+      <y>890</y>
+      <w>140</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1610</x>
+      <y>1020</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1640</x>
+      <y>1130</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1720</x>
+      <y>890</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1720</x>
+      <y>1020</y>
+      <w>130</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1720</x>
+      <y>1130</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>950</y>
+      <w>400</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Categoria
+--
+-elencoSottoCategorie: ArrayList&lt;SottoCategoria&gt;
+-numeroMaxGiorniPrestito: int
+-numeroMaxGiorniProroga: int
+-numeroGiorniRichiestaProroga: int
+-numeroMaxRisorseInPrestito: int
+--
++aggiungiSottoCategoria(sc:SottoCategoria): void
++verificaPresenza(t: String): boolean
++ricercaRisorsa(ricerca: IRicercaStrategy): ArrayList&lt;Risorsa&gt;
++toString(): String
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1130</x>
+      <y>770</y>
+      <w>380</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;360.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>790</x>
+      <y>730</y>
+      <w>350</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>/Contenitore/
+--
+-nome: String
+-elencoRisorse: ArrayList&lt;Risorsa&gt;
+--
++aggiungiRisorsa(r:Risorsa): void
++rimuoviRisorsa(r:Risorsa): void
+/+ricercaRisorsa(ricerca: Ricerca): ArrayList&lt;Risorsa&gt;/
+/+toString(): String/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>790</x>
+      <y>1160</y>
+      <w>400</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>SottoCategoria
+--
+
+--
++ricercaRisorsa(ricerca: IRicercaStrategy): ArrayList&lt;Risorsa&gt;
++toString(): String
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>970</x>
+      <y>860</y>
+      <w>140</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;120.0;300.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>920</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;50.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>570</x>
+      <y>560</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Libro
+--
+-numPagine:int
+-casaEditrice: String
+--
+toString(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>320</y>
+      <w>210</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>/Risorsa/
+--
+-titolo: String
+-numLicenze:int
+-artisti: ArrayList&lt;Persona&gt;
+-genere: String
+-annoPub: int
+lingua: String
+--
++verificaPresenzaArtista(t: String): boolean
+/+toString(): String/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>560</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Film
+--
+-regista: Persona
+-durataInMinuti: int
+--
+toString(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>480</y>
+      <w>100</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;80.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>520</y>
+      <w>90</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;40.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1190</x>
+      <y>30</y>
+      <w>450</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>/ProcessHandler/
+--
+-arc: Archivio
+-ap: ArchivioPrestiti
+--
+/+accesso(): Utente/
++ricercaRisorsa(ut: Utente): ArrayList&lt;Risorsa&gt;
++ricercaRisorsaLibri(ut: Utente, c: Contenitore): ArrayList&lt;Risorsa&gt;
++ricercaRisorsaFilm(ut: Utente, c: Contenitore): ArrayList&lt;Risorsa&gt;
++valutazioneDisponibilita(ut: Utente): String
++richiestaLogout(): boolean
++stampaRisorseDaRicerca(elencoRisorse: ArrayList&lt;Risorsa&gt;: String
++stampaElencoRisorse(c: Contenitore): String
++stampaElencoSottocategorie(c: Categoria): String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>940</x>
+      <y>360</y>
+      <w>430</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>ProcessFruitoreHandler
+--
+-af: AnagraficaFruitori
+-as: ArchivioStorico
+--
++iscrizione(): void
++rinnovaIscrizione(f: Fruitore): void
++accesso(): Utente
++visualizzaPrestitiInCorso(f: Fruitore): void
++registraPrestito(f: Fruitore): void
++richiediProroga(f: Fruitore): void
++controlloScadenzeAutomatiche(): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1440</x>
+      <y>360</y>
+      <w>790</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>ProcessOperatoreHandler
+--
+-af: AnagraficaFruitori
+-ao: AnagrficaOperatori
+-as: ArchivioStorico
+--
++accesso(): Utente
++visualizzaElencoFruitori(op: Operatore): void
++aggiungiRisorsaCategoriaSenzaSottoCategorie(op: Operatore, c: Categoria, nuovar: Risorsa): void
++aggiungiRisorsaCategoriaConSottoCategorie(op: Operatore, c: Categoria, sc: SottoCategoria, nuovar: Risorsa): void
++aggiungiRisorsa(op: Operatore): void
++rimuoviRisorsaCategoriaSenzaSottoCategorie(op: Operatore, c: Categoria, daEliminare: Risorsa): void
++rimuoviRisorsaCategoriaConSottoCategorie(op: Operatore, c: Categoria, sc: SottoCategoria, daEliminare: Risorsa): void
++rimuoviRisorsa(op: Operatore): void
++visualizzaArchivio(op: Operatore): void
++sceltaInterrogazione(o: Operatore): String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1400</x>
+      <y>260</y>
+      <w>130</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>110.0;100.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1310</x>
+      <y>300</y>
+      <w>120</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>320</y>
+      <w>240</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Persona
+--
+-nome: String
+-cognome: String
+--
++verificaPresenzaStringa(t: String)
++toString()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>330</y>
+      <w>230</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>210.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
